@@ -1,4 +1,5 @@
-{
+module.exports = {
+	root: true,
 	"parser": "babel-eslint",
 	"env": {
 		// El código es para un browser
@@ -7,6 +8,8 @@
 		"node": true,
 		// Jquery global
 		"jquery": true,
+		// ES6
+		"es6": true,
 	},
 	"rules": {
 		"prefer-const": ["error", {
@@ -21,7 +24,6 @@
 			"array": true,
 			"object": true
 		}],
-		"quotes": ["error"],
 		"prefer-template": ["error"],
 		"template-curly-spacing": ["error", "always"],
 		"space-before-function-paren": ["error"],
